@@ -102,20 +102,19 @@
 		707C296D1EE9310800D7C8E7 /* tnews */ = {
 			isa = PBXGroup;
 			children = (
-				707C29CB1EEDB9FB00D7C8E7 /* IB */,
 				707C29BA1EE98DE600D7C8E7 /* CoreData */,
-				707C29B51EE98A3700D7C8E7 /* Extensions */,
 				707C29B21EE9771700D7C8E7 /* ErrorHandle */,
-				707C29AC1EE9748F00D7C8E7 /* Screens */,
-				707C29A71EE963C600D7C8E7 /* Services */,
+				707C29B51EE98A3700D7C8E7 /* Extensions */,
+				707C29CB1EEDB9FB00D7C8E7 /* IB */,
 				707C29881EE94D8500D7C8E7 /* Mapping */,
 				707C298F1EE951A900D7C8E7 /* Models */,
 				707C29831EE935F900D7C8E7 /* Network */,
+				707C29AC1EE9748F00D7C8E7 /* Screens */,
+				707C29A71EE963C600D7C8E7 /* Services */,
 				707C296E1EE9310800D7C8E7 /* AppDelegate.swift */,
 				707C29781EE9310800D7C8E7 /* Assets.xcassets */,
 				707C297D1EE9310800D7C8E7 /* Info.plist */,
 				707C297A1EE9310800D7C8E7 /* LaunchScreen.storyboard */,
-				707C29751EE9310800D7C8E7 /* tnews.xcdatamodeld */,
 			);
 			path = tnews;
 			sourceTree = "<group>";
@@ -123,9 +122,9 @@
 		707C29831EE935F900D7C8E7 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				70C994481EEDD3D0006F9B9E /* GetNewsContentRequest.swift */,
 				707C29861EE93D9900D7C8E7 /* GetNewsRequest.swift */,
 				707C29841EE9360600D7C8E7 /* NetworkRequest.swift */,
-				70C994481EEDD3D0006F9B9E /* GetNewsContentRequest.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -135,8 +134,8 @@
 			children = (
 				707C298B1EE9514A00D7C8E7 /* Casting.swift */,
 				707C29891EE94D9000D7C8E7 /* MapperProtocol.swift */,
-				707C298D1EE9519700D7C8E7 /* NewsTitleMapper.swift */,
 				70C9944A1EEDDC15006F9B9E /* NewsMapper.swift */,
+				707C298D1EE9519700D7C8E7 /* NewsTitleMapper.swift */,
 			);
 			path = Mapping;
 			sourceTree = "<group>";
@@ -144,8 +143,8 @@
 		707C298F1EE951A900D7C8E7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				707C29901EE951C400D7C8E7 /* NewsTitle.swift */,
 				707C29C91EEDB98B00D7C8E7 /* News.swift */,
+				707C29901EE951C400D7C8E7 /* NewsTitle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,12 +163,12 @@
 		707C29A71EE963C600D7C8E7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				707C29A81EE963D100D7C8E7 /* NewsService.swift */,
-				707C29AA1EE964DA00D7C8E7 /* ServiceError.swift */,
 				707C29B81EE98D4400D7C8E7 /* CoreDataService.swift */,
 				70C994461EEDC6A9006F9B9E /* NetworkService.swift */,
+				707C29A81EE963D100D7C8E7 /* NewsService.swift */,
+				707C29AA1EE964DA00D7C8E7 /* ServiceError.swift */,
 			);
-			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		707C29AC1EE9748F00D7C8E7 /* Screens */ = {
@@ -178,7 +177,7 @@
 				707C29AD1EE9749D00D7C8E7 /* NewsListViewController.swift */,
 				707C29C51EEDB75800D7C8E7 /* NewsViewController.swift */,
 			);
-			name = Screens;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		707C29B21EE9771700D7C8E7 /* ErrorHandle */ = {
@@ -186,16 +185,16 @@
 			children = (
 				707C29B31EE9772300D7C8E7 /* ErrorHandler.swift */,
 			);
-			name = ErrorHandle;
+			path = ErrorHandle;
 			sourceTree = "<group>";
 		};
 		707C29B51EE98A3700D7C8E7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				707C29B61EE98A4A00D7C8E7 /* String+HTML.swift */,
 				70C9944C1EEE8A51006F9B9E /* NSManagedObject+PKRequest.swift */,
+				707C29B61EE98A4A00D7C8E7 /* String+HTML.swift */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		707C29BA1EE98DE600D7C8E7 /* CoreData */ = {
@@ -203,8 +202,9 @@
 			children = (
 				707C29921EE9538600D7C8E7 /* ManagedObjects */,
 				707C29BB1EE98E0000D7C8E7 /* CoreDataProvider.swift */,
+				707C29751EE9310800D7C8E7 /* tnews.xcdatamodeld */,
 			);
-			name = CoreData;
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		707C29CB1EEDB9FB00D7C8E7 /* IB */ = {
@@ -213,7 +213,7 @@
 				707C29721EE9310800D7C8E7 /* Main.storyboard */,
 				707C29CE1EEDBA4B00D7C8E7 /* NewsViewController.xib */,
 			);
-			name = IB;
+			path = IB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,6 +489,7 @@
 				707C29761EE9310800D7C8E7 /* tnews.xcdatamodel */,
 			);
 			currentVersion = 707C29761EE9310800D7C8E7 /* tnews.xcdatamodel */;
+			name = tnews.xcdatamodeld;
 			path = tnews.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
