@@ -1,0 +1,7 @@
+# Mac OS X files
+.DS_Store
+
+*.orig
+
+xcuserdata/
+Pods/
